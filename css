@@ -1,0 +1,200 @@
+*
+{
+	-moz-font-smoothing:antialiased;
+	-moz-text-size-adjust:100%;
+	-ms-font-smoothing:antialiased;
+	-ms-text-size-adjust:100%;
+	-webkit-font-smoothing:antialiased;
+	-webkit-text-size-adjust:100%;
+	margin:0;
+	padding:0;
+   
+}
+
+*,:before,:after
+{
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box;
+}
+
+html,body
+{
+
+	color:#4A4A4A;
+	font-family: 'Lato', sans-serif;
+	
+	text-align:center;
+	
+	width:100%;
+  height:100%;
+}
+
+h1
+{
+	font-size:40px;
+	font-weight:300;
+	letter-spacing:.05em;
+	line-height:1.5em;
+	text-align:center;
+    margin:20px;
+}
+
+h5
+{
+	font-size:16px;
+  font-weight:700;
+	letter-spacing:.15em;
+	line-height:2em;
+	text-transform:uppercase;
+    color:red;
+}
+
+p
+{
+  font-size:16px;
+  font-weight:700;
+	line-height:1.5em;
+	margin:0 auto;
+	max-width:600px;
+  
+}
+.bigImage{
+  -webkit-background-size:cover;
+
+  background-image:url(https://farm1.staticflickr.com/637/21641011846_162d8fd09b_k.jpg);
+ background-size:cover;
+	display:table;
+	height:100%;
+	position:absolute;
+	width:100%;
+}
+.box{
+  display:table;
+  margin:0 auto;
+  max-width:1009px;
+  vertical-align:middle;
+
+}
+
+.left{
+  float:left;
+  margin-top:15%;
+    max-width:600px;
+	padding:50px 25px 10px;
+	vertical-align:middle;
+    border:solid;
+}
+.right{
+  float:right;
+	margin-top:15%;
+    max-width:600px;
+   
+	padding:60px 25px 10px;
+  vertical-align:middle;
+  border:solid;
+}
+
+.imgContainer
+{
+	-moz-box-shadow:0 0 3px 1px rgba(0,0,0,0.5);
+	-webkit-border-radius:50%;
+	-webkit-box-shadow:0 0 3px 1px rgba(0,0,0,0.5);
+	background-color:#fff;
+	border-radius:50%;
+	box-shadow:0 0 3px 1px rgba(0,0,0,0.5);
+	height:120px;
+    width:120px;
+	margin:0 auto;
+	padding:3px;
+	
+}
+.head
+{
+	-webkit-border-radius:50%;
+	background-image:url(https://static1.squarespace.com/static/54d7e60ce4b071be742e6339/t/5602fc15e4b0ad0093a02442/1443036186525/Xinyue.jpg?format=2500w);
+	background-position:center center;
+	background-repeat:no-repeat;
+	background-size:150%;
+	border-radius:50%;
+	height:100%;
+	width:100%;
+}
+.hr-long
+{
+	 border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+  width:70%;
+  margin:15px auto;
+}
+
+.hr-short
+{
+	margin:20px auto;
+	opacity:.5;
+	width:25%;
+}
+
+
+ul
+{
+	list-style:none;
+}
+
+ul li
+{
+	display:inline-block;
+	margin:0 5px;
+}
+
+.icon
+{
+	
+	-webkit-transition:all .15s ease-out;
+	background-position:top left;
+	background-repeat:no-repeat;
+	height:124px;
+	opacity:.8;
+	transition:all .10s ease-out;
+	width:150px;
+}
+#name{
+  display:none;
+  font-size:14px;
+	font-weight:400;
+	letter-spacing:.05em;
+	line-height:1.5em;
+  color:#4A4A4A;
+  text-align:center;
+}
+.icon:hover
+{
+    opacity:1;	
+	transform:scale(1.05,1.05);
+  
+}
+a:hover #name{
+  display:block;
+}
+a{
+  text-decoration: none;
+  width:150px;
+  height:124px;
+}
+
+.portfolio
+{
+	background-image:url(https://static1.squarespace.com/static/54d7e60ce4b071be742e6339/t/5602fa5be4b04430b90c3d74/1443035739818/Scene-01_03.png);
+}
+
+.photos
+{
+	background-image:url(https://static1.squarespace.com/static/54d7e60ce4b071be742e6339/t/5602fa6ae4b04430b90c3df6/1443035754483/Scene-01_05.png);
+}
+
+.email
+{
+	background-image:url(https://static1.squarespace.com/static/54d7e60ce4b071be742e6339/t/5602fa71e4b04430b90c3e29/1443035761775/Scene-01_07.png);
+}
